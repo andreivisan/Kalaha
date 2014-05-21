@@ -81,25 +81,5 @@
                 </tr>
             </table>
         </div>
-        <!--
-        <script type="text/javascript" src="<c:url value="/resources/js/jquery-1.7.2.js" />"></script>
-        <script type="text/javascript">
-            $(".firstRowPit").click(function() {
-                var pitId = this.title;
-                $.ajax({
-                    type: 'POST',
-                    url: 'move.do',
-                    data: JSON.stringify({
-                        'pitId': pitId
-                    }),
-                    contentType:"application/json; charset=utf-8",
-                    dateType: "json",
-                    'success': function(data) {
-
-                    }
-                });
-            });
-        </script>
-        -->
 	</body>
 </html>
