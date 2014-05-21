@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="Kalaha:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Kalaha.war">
+      <element id="artifact" artifact-name="Kalaha:war exploded" />
+    </root>
+  </artifact>
+</component>
